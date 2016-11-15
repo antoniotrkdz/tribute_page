@@ -1,0 +1,145 @@
+body {
+  /*display: block;*/
+  background-color: #000;
+  margin: 0px;
+}
+@font-face {
+    font-family: 'inconsolatamedium';
+    src: url('./fonts/inconsolata-webfont.woff2') format('woff2'),
+         url('.fonts/inconsolata-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'rio_granderegular';
+    src: url('./fonts/rio-grande.regular-webfont.woff2') format('woff2'),
+         url('./fonts/rio-grande.regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'axisextra_bold';
+    src: url('./fonts/axis_extrabold-webfont.woff2') format('woff2'),
+         url('./fonts/axis_extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#background {
+  display: flex;
+  background-image: url('./images/1020_non_int.png');
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 0;
+  background-size: cover !important;
+}
+
+#title {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+#title>h1 {
+  font-family: 'rio_granderegular';
+  font-size: 5.8em;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px #FFF;
+  letter-spacing: 7px;
+  line-height: 0.5;
+}
+
+h2 {
+  font-family: 'axisextra_bold';
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+}
+
+#up {
+  margin-top: 0px;
+  padding-top: 3vh;
+}
+
+#down {
+}
+
+#content {
+  width: 769px;
+  height: 1120px;
+  z-index: 1;
+  background: #000;
+  min-height: 100% !important;
+  opacity: 0.6;
+  margin: -108vh auto 5vh auto;
+  padding: 0 10px;
+}
+#content-text {
+  margin: 0% auto 0% auto;
+  width: 769px;
+  position: relative;
+  padding-top: 0.7vh;
+  z-index: 2;
+  color: #FFF;
+  text-align: justify;
+  font-family: 'inconsolatamedium';
+  font-size: 22px;
+}
+#source {
+  margin: 0% auto 0% auto;
+  width: 769px;
+  position: relative;
+  padding-top: 1.3vh;
+  z-index: 2;
+  color: #FFF;
+  font-family: 'axisextra_bold' ;
+  text-align: center;
+  font-size: 18px;
+}
+#pic {
+  display: flex;
+  margin: 0 auto;
+  width: 789px;
+}
+#pic img {
+  z-index: 2;
+  border: 2px solid #000;
+}
+#links {
+  width: 769px;
+  height: 190px;
+  z-index: 1;
+  background: #000;
+  min-height: 100% !important;
+  opacity: 0.6;
+  margin: -17.5vh auto 5vh auto;
+  padding: 0 10px;
+}
+#links-text {
+  margin: -3vh auto 0 auto;
+  width: 769px;
+  position: relative;
+  z-index: 2;
+  color: #FFF;
+  text-align: center;
+  font-family: 'axisextra_bold' ;
+  font-size: 18px;
+}
+#links-text span {
+  font-size: 16px;
+}
+#links-fa {
+  z-index: 2;
+  display: flex;
+  position: relative;
+  width: 789px;
+  margin: 2vh auto;
+  justify-content: space-around;
+}
+#links-fa a i{
+  flex: 1 0 auto;
+  color: #FFF;
+}
