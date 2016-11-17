@@ -47,7 +47,7 @@ body {
   font-weight: bold;
   text-shadow: 3px 3px 5px #FFF;
   letter-spacing: 7px;
-  line-height: 0.5;
+  margin: 20px;
 }
 
 h2 {
@@ -69,12 +69,12 @@ a {
 
 #content {
   width: 769px;
-  height: 1120px;
+  height: 1040px;
   z-index: 1;
   background: #000;
   min-height: 100% !important;
   opacity: 0.6;
-  margin: -108vh auto 5vh auto;
+  margin: -1050px auto 0 auto;
   padding: 0 10px;
 }
 #content-text {
@@ -115,11 +115,11 @@ a {
   background: #000;
   min-height: 100% !important;
   opacity: 0.6;
-  margin: -17.5vh auto 5vh auto;
+  margin: -174px auto 50px auto;
   padding: 0 10px;
 }
 #links-text {
-  margin: -3vh auto 0 auto;
+  margin: 13px auto 0 auto;
   width: 769px;
   position: relative;
   z-index: 2;
@@ -136,7 +136,7 @@ a {
   display: flex;
   position: relative;
   width: 789px;
-  margin: 2vh auto;
+  margin: 20px auto;
   justify-content: space-around;
 }
 #links-fa a i{
