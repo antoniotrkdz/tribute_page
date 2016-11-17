@@ -81,7 +81,7 @@ a {
   margin: 0% auto 0% auto;
   width: 769px;
   position: relative;
-  padding-top: 0.7vh;
+  padding-top: 5px;
   z-index: 2;
   color: #FFF;
   text-align: justify;
@@ -92,7 +92,7 @@ a {
   margin: 0% auto 0% auto;
   width: 769px;
   position: relative;
-  padding-top: 1.3vh;
+  padding-top: 12px;
   z-index: 2;
   color: #FFF;
   font-family: 'axisextra_bold' ;
