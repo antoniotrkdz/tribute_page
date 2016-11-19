@@ -68,6 +68,7 @@ a {
 }
 
 #content {
+position: relative;
   width: 769px;
   height: 1036px;
   z-index: 1;
