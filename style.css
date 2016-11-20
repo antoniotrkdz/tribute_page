@@ -144,3 +144,13 @@ a {
   flex: 1 0 auto;
   color: #FFF;
 }
+#report {
+  color: #FFF;
+  position: relative;
+  height: 100px;
+  z-index: 1;
+  background: #000;
+  opacity: 0.6;
+  margin: -1.3vh auto 0 auto;
+  padding: 0 10px;
+}
