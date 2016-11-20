@@ -75,7 +75,7 @@ a {
   background: #000;
   min-height: 100% !important;
   opacity: 0.6;
-  margin: -239px auto 0 auto;
+  margin: -1272px auto 0 auto;
   padding: 0 10px;
 }
 #content-text {
@@ -90,7 +90,7 @@ a {
   font-size: 1.38em;
 }
 #source {
-  margin: -1021px auto 0% auto;
+  margin: 0 auto 0 auto;
   width: 769px;
   position: relative;
   padding-top: 12px;
