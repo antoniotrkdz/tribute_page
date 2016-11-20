@@ -68,18 +68,18 @@ a {
 }
 
 #content {
-position: relative;
+  position: relative;
   width: 769px;
-  height: 1036px;
+  height: 1262px;
   z-index: 1;
   background: #000;
   min-height: 100% !important;
   opacity: 0.6;
-  margin: -1050px auto 0 auto;
+  margin: -239px auto 0 auto;
   padding: 0 10px;
 }
 #content-text {
-  margin: 0% auto 0% auto;
+  margin: 0 auto 0 auto;
   width: 769px;
   position: relative;
   padding-top: 5px;
@@ -90,7 +90,7 @@ position: relative;
   font-size: 22px;
 }
 #source {
-  margin: 0% auto 0% auto;
+  margin: -1021px auto 0% auto;
   width: 769px;
   position: relative;
   padding-top: 12px;
