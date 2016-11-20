@@ -87,7 +87,7 @@ a {
   color: #FFF;
   text-align: justify;
   font-family: 'inconsolatamedium';
-  font-size: 22px;
+  font-size: 1.38em;
 }
 #source {
   margin: -1021px auto 0% auto;
@@ -98,7 +98,7 @@ a {
   color: #FFF;
   font-family: 'axisextra_bold' ;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.15em;
 }
 #pic {
   display: flex;
