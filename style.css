@@ -1,5 +1,4 @@
 body {
-  /*display: block;*/
   background-color: #000;
   margin: 0px;
 }
@@ -41,7 +40,7 @@ body {
   z-index: 1;
 }
 
-#title>h1 {
+#title h1 {
   font-family: 'rio_granderegular';
   font-size: 5.8em;
   font-weight: bold;
@@ -63,43 +62,10 @@ a {
   margin-top: 0px;
   padding-top: 3vh;
 }
-
 #down {
+  padding-bottom: 1vh;
 }
 
-#content {
-  position: relative;
-  width: 769px;
-  height: 128vh;
-  z-index: 1;
-  background: #000;
-  min-height: 100% !important;
-  opacity: 0.6;
-  margin: -129.3vh auto 0 auto;
-  padding: 0 10px;
-}
-#content-text {
-  margin: 0 auto 0 auto;
-  width: 769px;
-  position: relative;
-  padding-top: 5px;
-  z-index: 2;
-  color: #FFF;
-  text-align: justify;
-  font-family: 'inconsolatamedium';
-  font-size: 1.38em;
-}
-#source {
-  margin: 0 auto 0 auto;
-  width: 769px;
-  position: relative;
-  padding-top: 12px;
-  z-index: 2;
-  color: #FFF;
-  font-family: 'axisextra_bold' ;
-  text-align: center;
-  font-size: 1.15em;
-}
 #pic {
   display: flex;
   margin: 0 auto;
@@ -107,43 +73,64 @@ a {
 }
 #pic img {
   z-index: 2;
-  border: 2px solid #000;
+  border: 2px solid rgba(0,0,0,0.6);
 }
-#links {
-  width: 769px;
-  height: 190px;
-  z-index: 1;
-  background: #000;
-  min-height: 100% !important;
-  opacity: 0.6;
-  margin: -174px auto 50px auto;
-  padding: 0 10px;
-}
-#links-text {
-  margin: 13px auto 0 auto;
-  width: 769px;
+
+#content {
   position: relative;
+  width: 789px;
+  z-index: 1;
+  background: rgba(0,0,0,0.6);
+  margin: 0 auto;
+}
+#content h2 {
+  margin: 0;
+  padding: 1.5vh .5vh .1vh .5vh;
   z-index: 2;
   color: #FFF;
   text-align: center;
-  font-family: 'axisextra_bold' ;
-  font-size: 18px;
+  font-size: 1.15em;
 }
-#links-text span {
-  font-size: 16px;
+#content p{
+  margin: 0;
+  padding: .5vh;
+  z-index: 2;
+  color: #FFF;
+  text-align: justify;
+  font-family: 'inconsolatamedium';
+  font-size: 1.38em;
+}
+
+#links {
+  position: relative;
+  width: 789px;
+  z-index: 1;
+  background: rgba(0,0,0,0.6);
+  margin: .5vh auto;
+}
+#links h2 {
+  margin: 0 auto;
+  padding: .5vh;
+  z-index: 2;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.15em;
+}
+#links h2 span {
+  font-size: .85em;
 }
 #links-fa {
   z-index: 2;
   display: flex;
-  position: relative;
-  width: 789px;
-  margin: 20px auto;
+  margin: 0 auto;
   justify-content: space-around;
+  padding: 1.5vh .5vh 1vh .5vh;
 }
 #links-fa a i{
   flex: 1 0 auto;
   color: #FFF;
 }
+
 #report {
   color: #FFF;
   position: relative;
@@ -151,6 +138,6 @@ a {
   z-index: 1;
   background: #000;
   opacity: 0.6;
-  margin: -1.3vh auto 0 auto;
+  margin: 0 auto;
   padding: 0 10px;
 }
