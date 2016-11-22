@@ -55,7 +55,10 @@ h2 {
 
 a {
   text-decoration: none;
-  color: yellow;
+  color: #FF0;
+}
+a:hover {
+  color: #F00;
 }
 
 #up {
@@ -130,14 +133,52 @@ a {
   flex: 1 0 auto;
   color: #FFF;
 }
-
-#report {
-  color: #FFF;
-  position: relative;
-  height: 100px;
+#youtu:hover {
+  color: #F00;
+}
+#wiki:hover {
+  color: #939598;
+}
+/* .tttip{
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
   z-index: 1;
-  background: #000;
-  opacity: 0.6;
-  margin: 0 auto;
-  padding: 0 10px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  /*opacity: 0;
+  transition: opacity 1s;
+}
+
+.tttip:hover .tttext {
+    visibility: visible;
+    opacity: 1;
+}*/
+#footer {
+  color: #FFF;
+  font-weight: bold;
+  font-family: sans-serif;
+  position: relative;
+  height: 3vh;
+  width: 769px;
+  z-index: 1;
+  background: rgba(0,0,0,1);
+  margin: 6vh auto 0 auto;
+  padding: 1vh 1vh 0 1vh;
+}
+#footer span {
+  font-family: 'rio_granderegular';
+  position: absolute;
+  right: 1vh;
+  top:0.8vh;
+  letter-spacing: 1px;
+  font-weight: normal;
 }
