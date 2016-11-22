@@ -172,13 +172,13 @@ a:hover {
   z-index: 1;
   background: rgba(0,0,0,1);
   margin: 6vh auto 0 auto;
-  padding: 1vh 1vh 0 1vh;
+  padding: 16px 11px 0 11px;
 }
 #footer span {
   font-family: 'rio_granderegular';
   position: absolute;
-  right: 1vh;
-  top:0.8vh;
+  right: 11px;
+  top:14px;
   letter-spacing: 1px;
   font-weight: normal;
 }
